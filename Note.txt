@@ -4,3 +4,9 @@ https://codepen.io/kevinpowell/pen/MWXybWJ
 https://github.com/Annie-Huang/theme-switcher
 
 ----------------------------------------------------------------------
+
+There is a version of use :has() to do the work,
+e.g. :root:has(#pink:checked) {..}
+
+And a fall back version because firefox is not supporting :has() yet.
+e.g. .pink {...}
